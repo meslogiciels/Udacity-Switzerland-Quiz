@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/MyViewsLeftRightTopMargins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:maxWidth="@dimen/image_max_width"
+            android:scaleType="centerInside"
+            android:src="@drawable/ch_outline_map" />
+
+        <TextView
+            style="@style/MyViewsLeftRightTopMargins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_title"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_main_all"
+            android:text="@string/main_quiz_intro" />
+
+        <TextView
+            style="@style/MyViewsLeftRightMargins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_user_name" />
+
+        <EditText
+            android:id="@+id/edittext_main_user_name"
+            style="@style/MyViewsLeftRightMarginsLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/main_quiz_user_name_hint"
+            android:inputType="textCapWords" />
+    </LinearLayout>
+</merge>

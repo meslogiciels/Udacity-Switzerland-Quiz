@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_main_question_1"
+        style="@style/MyViewsLeftRightTopMargins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_main_title_question_1"
+            style="@style/MyHeaderBottomMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_title_question_1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_question_1" />
+
+        <EditText
+            android:id="@+id/edittext_main_question_1_answer"
+            style="@style/MyViewsLeftRightMarginsSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/main_quiz_question_1_answer_hint"
+            android:inputType="textCapSentences|textAutoCorrect" />
+
+        <TextView
+            android:id="@+id/textview_main_title_answer_1"
+            style="@style/MyHeaderTopBottomMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_title_answer_1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_main_quiz_answer_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_answer_1" />
+    </LinearLayout>
+
+</merge>

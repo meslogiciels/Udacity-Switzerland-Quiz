@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_main_all">20dp</dimen>
+    <dimen name="margin_main_left">20dp</dimen>
+    <dimen name="margin_main_right">20dp</dimen>
+    <dimen name="margin_main_top">20dp</dimen>
+    <dimen name="margin_main_bottom">20dp</dimen>
+
+    <dimen name="margin_main_left_small">10dp</dimen>
+    <dimen name="margin_main_right_small">10dp</dimen>
+
+    <dimen name="margin_main_left_medium">30dp</dimen>
+    <dimen name="margin_main_right_medium">30dp</dimen>
+
+    <dimen name="margin_main_left_large">100dp</dimen>
+    <dimen name="margin_main_right_large">100dp</dimen>
+
+    <dimen name="margin_main_bottom_extra_small">5dp</dimen>
+
+    <dimen name="line_height_small">1dp</dimen>
+
+    <dimen name="image_max_width">600dp</dimen>
+
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_padding">6dp</dimen>
+
+    <dimen name="radiogroup_left_padding">10dp</dimen>
+    <dimen name="radiogroup_right_padding">10dp</dimen>
+</resources>

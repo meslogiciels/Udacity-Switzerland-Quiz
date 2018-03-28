@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizaboutswitzerland.MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollview_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/activity_main_introduction" />
+
+            <include layout="@layout/activity_main_question1" />
+
+            <include layout="@layout/activity_main_question2" />
+
+            <include layout="@layout/activity_main_question3" />
+
+            <include layout="@layout/activity_main_question4" />
+
+            <include layout="@layout/activity_main_question5" />
+
+            <include layout="@layout/activity_main_question6" />
+
+            <include layout="@layout/activity_main_question7" />
+
+            <include layout="@layout/activity_main_question8" />
+
+            <include layout="@layout/activity_main_question9" />
+
+            <include layout="@layout/activity_main_question10" />
+
+            <include layout="@layout/activity_main_quiz_scoring" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

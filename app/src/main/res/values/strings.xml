@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Quiz About Switzerland</string>
+    <string name="main_quiz_title">How well do you know Switzerland?</string>
+    <string name="main_quiz_submit">Submit</string>
+    <string name="main_quiz_reset">Reset</string>
+    <string name="main_quiz_email">Email</string>
+    <string name="main_quiz_answers">Answers</string>
+    <string name="main_quiz_intro">This short 10-question quiz will test your general knowledge about Switzerland, a federal republic situated in Western-Central Europe.</string>
+    <string name="main_quiz_user_name">What is your name?</string>
+    <string name="main_quiz_user_name_hint">Enter your name here</string>
+
+    <string name="main_quiz_title_question_1">Question #1</string>
+    <string name="main_quiz_question_1">What is Switzerland known for worldwide?</string>
+    <string name="main_quiz_question_1_answer_hint">Enter your answer here</string>
+    <string name="main_quiz_title_answer_1">Answer #1</string>
+    <string name="main_quiz_answer_1">Worldwide, Switzerland is known for its watches, chocolate, cheese, banks, and Alps.</string>
+
+    <string name="main_quiz_title_question_2">Question #2</string>
+    <string name="main_quiz_question_2">Switzerland is a landlocked country in Western Europe. Which of the following countries does it share a border with?</string>
+    <string name="main_quiz_question_2_answer_a">Italy</string>
+    <string name="main_quiz_question_2_answer_b">France</string>
+    <string name="main_quiz_question_2_answer_c">Austria</string>
+    <string name="main_quiz_question_2_answer_d">Germany</string>
+    <string name="main_quiz_question_2_answer_e">Liechtenstein</string>
+    <string name="main_quiz_title_answer_2">Answer #2</string>
+    <string name="main_quiz_answer_2">Switzerland shares a land border with all of them</string>
+
+    <string name="main_quiz_title_question_3">Question #3</string>
+    <string name="main_quiz_question_3">In square kilometers, how big is Switzerland?</string>
+    <string name="main_quiz_question_3_answer_a">30,510</string>
+    <string name="main_quiz_question_3_answer_b">33,846</string>
+    <string name="main_quiz_question_3_answer_c">41,290</string>
+    <string name="main_quiz_question_3_answer_d">45,339</string>
+    <string name="main_quiz_title_answer_3">Answer #3</string>
+    <string name="main_quiz_answer_3">Switzerland is a rather small country. It is only 41,290 square-kilometers. For comparison purposes, the United States is about 238 times bigger than Switzerland.</string>
+
+    <string name="main_quiz_title_question_4">Question #4</string>
+    <string name="main_quiz_question_4">What was the population of Switzerland at the end of 2016?</string>
+    <string name="main_quiz_question_4_answer_a">6,225,550</string>
+    <string name="main_quiz_question_4_answer_b">8,419,550</string>
+    <string name="main_quiz_question_4_answer_c">9,419,225</string>
+    <string name="main_quiz_title_answer_4">Answer #4</string>
+    <string name="main_quiz_answer_4">At the end f 2016, the population of Switzerland was 8,419,550 inhabitants.</string>
+
+    <string name="main_quiz_title_question_5">Question #5</string>
+    <string name="main_quiz_question_5">Switzerland has more than one official language. Which ones are they?</string>
+    <string name="main_quiz_question_5_answer_a">French</string>
+    <string name="main_quiz_question_5_answer_b">German</string>
+    <string name="main_quiz_question_5_answer_c">English</string>
+    <string name="main_quiz_question_5_answer_d">Spanish</string>
+    <string name="main_quiz_question_5_answer_e">Romansh</string>
+    <string name="main_quiz_question_5_answer_f">Italian</string>
+    <string name="main_quiz_title_answer_5">Answer #5</string>
+    <string name="main_quiz_answer_5">Switzerland has four official languages: German, French, Italian, and Romansh.</string>
+
+    <string name="main_quiz_title_question_6">Question #6</string>
+    <string name="main_quiz_question_6">Does Switzerland have a head of state?</string>
+    <string name="main_quiz_question_6_answer_a">Yes</string>
+    <string name="main_quiz_question_6_answer_b">No</string>
+    <string name="main_quiz_title_answer_6">Answer #6</string>
+    <string name="main_quiz_answer_6">Switzerland does not have a president as head of state. Instead, it is governed by a seven-member council. The council members rotate in one-year terms as federal president.</string>
+
+    <string name="main_quiz_title_question_7">Question #7</string>
+    <string name="main_quiz_question_7">What is the capital of Switzerland?</string>
+    <string name="main_quiz_question_7_answer_a">Bern</string>
+    <string name="main_quiz_question_7_answer_b">Geneva</string>
+    <string name="main_quiz_question_7_answer_c">Zürich</string>
+    <string name="main_quiz_title_answer_7">Answer #7</string>
+    <string name="main_quiz_answer_7">The capital of Switzerland is Bern, while the largest city is Zürich.</string>
+
+    <string name="main_quiz_title_question_8">Question #8</string>
+    <string name="main_quiz_question_8">What is the shape of the flag of Switzerland?</string>
+    <string name="main_quiz_question_8_answer_a">square</string>
+    <string name="main_quiz_question_8_answer_b">triangle</string>
+    <string name="main_quiz_question_8_answer_c">rectangle</string>
+    <string name="main_quiz_title_answer_8">Answer #8</string>
+    <string name="main_quiz_answer_8">Switzerland has a square flag; the only other square country flag belongs to the Vatican.</string>
+
+    <string name="main_quiz_title_question_9">Question #9</string>
+    <string name="main_quiz_question_9">The personal bodyguards of the Pope are called the Swiss Guard. Do they really come from Switzerland?</string>
+    <string name="main_quiz_question_9_answer_a">Yes</string>
+    <string name="main_quiz_question_9_answer_b">No</string>
+    <string name="main_quiz_title_answer_9">Answer #9</string>
+    <string name="main_quiz_answer_9">Yes, they are. They are Roman Catholic faithfuls recruited from the Catholic cantons of Switzerland. They wear the same particular uniforms that they did the day it was started in 1506.</string>
+
+    <string name="main_quiz_title_question_10">Question #10</string>
+    <string name="main_quiz_title_answer_10">Answer #10</string>
+    <string name="main_quiz_question_10">What is the official name of Switzerland?</string>
+    <string name="main_quiz_question_10_answer_a">Suisse</string>
+    <string name="main_quiz_question_10_answer_b">Switzerland</string>
+    <string name="main_quiz_question_10_answer_c">Confoederatio Helvetica</string>
+    <string name="main_quiz_answer_10">In Latin, the official name of Switzerland is Confoederatio Helvetica (which means Swiss Confederation). The Latin name, only used on official documents, is the reason why Switzerland\'s abbreviation is CH.</string>
+
+    <string name="name_required">Please do not forget to enter your name.</string>
+    <string name="answers_required">Please do not forget to answer all questions.</string>
+</resources>

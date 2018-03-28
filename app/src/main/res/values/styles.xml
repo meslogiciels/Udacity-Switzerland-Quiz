@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyViewsLeftRightMargins">
+        <item name="android:layout_marginLeft">@dimen/margin_main_left</item>
+        <item name="android:layout_marginRight">@dimen/margin_main_right</item>
+    </style>
+
+    <style name="MyViewsLeftRightMarginsSmall">
+        <item name="android:layout_marginLeft">@dimen/margin_main_left_small</item>
+        <item name="android:layout_marginRight">@dimen/margin_main_right_small</item>
+    </style>
+
+    <style name="MyViewsLeftRightMarginsLarge">
+        <item name="android:layout_marginLeft">@dimen/margin_main_left_medium</item>
+        <item name="android:layout_marginRight">@dimen/margin_main_right_medium</item>
+    </style>
+
+    <style name="MyViewsLeftRightTopMargins" parent="MyViewsLeftRightMargins">
+        <item name="android:layout_marginTop">@dimen/margin_main_top</item>
+    </style>
+
+    <style name="MyHeaderBottomMargin">
+        <item name="android:layout_marginBottom">@dimen/margin_main_bottom_extra_small</item>
+    </style>
+
+    <style name="MyHeaderTopBottomMargin" parent="MyHeaderBottomMargin">
+        <item name="android:layout_marginTop">@dimen/margin_main_top</item>
+    </style>
+
+    <style name="MyRadioGroupsLeftRightPaddings">
+        <item name="android:paddingLeft">@dimen/radiogroup_left_padding</item>
+        <item name="android:paddingRight">@dimen/radiogroup_right_padding</item>
+    </style>
+
+    <style name="MySeparatorAsHorizontalLine">
+        <item name="android:layout_height">@dimen/line_height_small</item>
+        <item name="android:layout_marginLeft">@dimen/margin_main_left_large</item>
+        <item name="android:layout_marginRight">@dimen/margin_main_right_large</item>
+        <item name="android:layout_marginBottom">@dimen/margin_main_bottom</item>
+    </style>
+
+    <style name="MyButtons">
+        <item name="android:layout_marginBottom">@dimen/margin_main_bottom</item>
+        <item name="android:layout_marginTop">@dimen/margin_main_top</item>
+        <item name="android:padding">@dimen/button_padding</item>
+    </style>
+
+</resources>

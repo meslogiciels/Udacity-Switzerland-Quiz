@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_main_question_6"
+        style="@style/MyViewsLeftRightTopMargins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            style="@style/MySeparatorAsHorizontalLine"
+            android:layout_width="match_parent"
+            android:background="@color/colorRadioButtonText" />
+
+        <TextView
+            android:id="@+id/textview_main_title_question_6"
+            style="@style/MyHeaderBottomMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_title_question_6"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_question_6" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_main_question_6"
+            style="@style/MyRadioGroupsLeftRightPaddings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radiobutton_main_question_6_answer_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_quiz_question_6_answer_a"
+                android:textColor="@color/colorRadioButtonText" />
+
+            <RadioButton
+                android:id="@+id/radiobutton_main_question_6_answer_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_quiz_question_6_answer_b"
+                android:textColor="@color/colorRadioButtonText" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textview_main_title_answer_6"
+            style="@style/MyHeaderTopBottomMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_title_answer_6"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_main_quiz_answer_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_answer_6" />
+    </LinearLayout>
+
+</merge>

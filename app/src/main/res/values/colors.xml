@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F02020</color>
+    <color name="colorPrimaryDark">#BA000D</color>
+    <color name="colorAccent">#FF7961</color>
+    <color name="colorButtonText">#FAFAFA</color>
+    <color name="colorRadioButtonText">#777777</color>
+</resources>

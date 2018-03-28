@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_main_question_2"
+        style="@style/MyViewsLeftRightTopMargins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@color/colorRadioButtonText" />
+
+        <TextView
+            android:id="@+id/textview_main_title_question_2"
+            style="@style/MyHeaderBottomMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_title_question_2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_question_2" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_question_2_answer_a"
+            style="@style/MyViewsLeftRightMarginsSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/main_quiz_question_2_answer_a"
+            android:textColor="@color/colorRadioButtonText" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_question_2_answer_b"
+            style="@style/MyViewsLeftRightMarginsSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/main_quiz_question_2_answer_b"
+            android:textColor="@color/colorRadioButtonText" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_question_2_answer_c"
+            style="@style/MyViewsLeftRightMarginsSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/main_quiz_question_2_answer_c"
+            android:textColor="@color/colorRadioButtonText" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_question_2_answer_d"
+            style="@style/MyViewsLeftRightMarginsSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/main_quiz_question_2_answer_d"
+            android:textColor="@color/colorRadioButtonText" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_question_2_answer_e"
+            style="@style/MyViewsLeftRightMarginsSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/main_quiz_question_2_answer_e"
+            android:textColor="@color/colorRadioButtonText" />
+
+        <TextView
+            android:id="@+id/textview_main_title_answer_2"
+            style="@style/MyHeaderTopBottomMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_title_answer_2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_main_quiz_answer_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_quiz_answer_2" />
+    </LinearLayout>
+
+</merge>
