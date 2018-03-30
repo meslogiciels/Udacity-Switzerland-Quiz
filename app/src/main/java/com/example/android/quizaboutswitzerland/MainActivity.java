@@ -4,7 +4,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
+import java.util.Locale;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -16,6 +16,8 @@ import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -341,22 +343,23 @@ public class MainActivity extends AppCompatActivity {
         String missingAnswers = "";
         if (unansweredQuestionsCounter > 0) {
             if (unansweredQuestionsCounter == 1)
-                missingAnswers = "Question #" + arrayOfUnansweredQuestions[0] + " has not been answered.";
+                missingAnswers = String.format(Locale.US, "%s %d %s", "Question #", arrayOfUnansweredQuestions[0], " has not been answered.");
             else {
                 missingAnswers = "The following questions #";
                 for (int i = 1; i <= unansweredQuestionsCounter; i++) {
+                    // Skip the questions that have been answered
                     if (arrayOfUnansweredQuestions[i - 1] == -1)
                         break;
 
                     if (i <= (unansweredQuestionsCounter - 2)) {
-                        missingAnswers = missingAnswers + arrayOfUnansweredQuestions[i - 1] + ", ";
+                        missingAnswers = String.format(Locale.US, "%s %d %s", missingAnswers, arrayOfUnansweredQuestions[i - 1], ", ");
                     } else if (i <= (unansweredQuestionsCounter - 1)) {
-                        missingAnswers = missingAnswers + arrayOfUnansweredQuestions[i - 1] + " and ";
+                        missingAnswers = String.format(Locale.US, "%s %d %s", missingAnswers, arrayOfUnansweredQuestions[i - 1], " and ");
                     } else {
-                        missingAnswers = missingAnswers + arrayOfUnansweredQuestions[i - 1];
+                        missingAnswers = String.format(Locale.US, "%s %d", missingAnswers, arrayOfUnansweredQuestions[i - 1]);
                     }
                 }
-                missingAnswers = missingAnswers + " have not been answered.";
+                missingAnswers = String.format(Locale.US, "%s %s", missingAnswers, " have not been answered.");
             }
         }
         return missingAnswers;
@@ -464,7 +467,8 @@ public class MainActivity extends AppCompatActivity {
         // If they have not, let's remind the user to do so
         if (!unansweredQuestions.isEmpty()) {
             // Display a toast notification (informing the user of missing answers) for a long length/duration
-            Toast.makeText(this, getString(R.string.answers_required) + "\n\n" + unansweredQuestions, Toast.LENGTH_LONG).show();
+            String toastMessage = String.format(Locale.US, "%s %s %s", getString(R.string.answers_required), "\n\n", unansweredQuestions);
+            Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
             // Scroll back to the first unanswered question
             linearlayoutQuestionsArray[intFirstUnAnsweredQuestion - 1].getParent().requestChildFocus(linearlayoutQuestionsArray[intFirstUnAnsweredQuestion - 1], linearlayoutQuestionsArray[intFirstUnAnsweredQuestion - 1]);
             return;
@@ -473,8 +477,8 @@ public class MainActivity extends AppCompatActivity {
         // Score the quiz
         int numberOfCorrectAnswers = scoreQuiz();
         // Display a toast notification (informing the user of his/her results) for a long length/duration
-        String stringQuizSummary = "You answered correctly " + numberOfCorrectAnswers + " questions out of " + NUMBER_OF_QUESTIONS + ".";
-        Toast.makeText(this, stringQuizSummary, Toast.LENGTH_LONG).show();
+        String toastMessage = String.format(Locale.US, "%s %d %s %d %s", "You answered correctly ", numberOfCorrectAnswers, " questions out of ", NUMBER_OF_QUESTIONS, ".");
+        Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
         // Hide the button that should not be visible once a quiz has been scored
         setViewVisibility(buttonMainQuizSubmit, View.GONE);
         // Show the button that should only be visible once a quiz has been scored

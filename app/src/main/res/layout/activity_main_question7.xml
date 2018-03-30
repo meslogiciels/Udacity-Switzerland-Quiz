@@ -29,7 +29,7 @@
 
         <RadioGroup
             android:id="@+id/radiogroup_main_question_7"
-            style="@style/MyRadioGroupsLeftRightPaddings"
+            style="@style/MyRadioGroupsLeftRightPadding"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 

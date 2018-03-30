@@ -35,7 +35,7 @@
         <item name="android:layout_marginTop">@dimen/margin_main_top</item>
     </style>
 
-    <style name="MyRadioGroupsLeftRightPaddings">
+    <style name="MyRadioGroupsLeftRightPadding">
         <item name="android:paddingLeft">@dimen/radiogroup_left_padding</item>
         <item name="android:paddingRight">@dimen/radiogroup_right_padding</item>
     </style>

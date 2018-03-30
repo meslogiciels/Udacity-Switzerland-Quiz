@@ -12,6 +12,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/outline_map_of_switzerland"
             android:maxWidth="@dimen/image_max_width"
             android:scaleType="centerInside"
             android:src="@drawable/ch_outline_map" />
@@ -42,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/main_quiz_user_name_hint"
+            android:imeOptions="actionDone"
             android:inputType="textCapWords" />
     </LinearLayout>
 </merge>
