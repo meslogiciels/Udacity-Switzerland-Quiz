@@ -11,10 +11,10 @@
     <string name="main_quiz_user_name_hint">Enter your name here</string>
 
     <string name="main_quiz_title_question_1">Question #1</string>
-    <string name="main_quiz_question_1">What is Switzerland known for worldwide?</string>
-    <string name="main_quiz_question_1_answer_hint">Enter your answer here</string>
+    <string name="main_quiz_question_1">What is Switzerland best known for?</string>
+    <string name="main_quiz_question_1_answer_hint">Enter your keywords here</string>
     <string name="main_quiz_title_answer_1">Answer #1</string>
-    <string name="main_quiz_answer_1">Worldwide, Switzerland is known for its watches, chocolate, cheese, banks, and Alps.</string>
+    <string name="main_quiz_answer_1">Worldwide, Switzerland is known for its watches, chocolate, cheese, banks, neutrality, and Alps.</string>
 
     <string name="main_quiz_title_question_2">Question #2</string>
     <string name="main_quiz_question_2">Switzerland is a landlocked country in Western Europe. Which of the following countries does it share a border with?</string>

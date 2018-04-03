@@ -9,11 +9,8 @@
         android:orientation="vertical">
 
         <View
+            style="@style/MySeparatorAsHorizontalLine"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginLeft="100dp"
-            android:layout_marginRight="100dp"
             android:background="@color/colorRadioButtonText" />
 
         <TextView
